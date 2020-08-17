@@ -1,0 +1,16 @@
+{
+  "name": "retounoapi4",
+  "version": "1.0.0",
+  "description": "Api para filtrar datos CoVid estatales",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan David Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
