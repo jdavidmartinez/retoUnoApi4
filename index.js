@@ -103,10 +103,7 @@ app.get('/mayorcuarenta', function (req, res) {
 
     if (!error && response.statusCode === 200) {
         // Pintamos la respuesta JSON en navegador.
-        const masculino = result.filter(val => val.sexo === 'M') 
-        const femenino = result.filter(val => val.sexo === 'F')
-        const veinte = result.filter(val => val.edad <=20)
-        const cuarenta = result.filter(val => val.edad > 20 && val.edad <=40)
+        
         const mayorCuarenta = result.filter(val => val.edad > 40 )
 
         res.send(mayorCuarenta) 
